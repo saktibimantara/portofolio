@@ -22,4 +22,5 @@ jobs:
           yarn
           npm run deploy
       - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         run: npm run deploy:ci
