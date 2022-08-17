@@ -6,6 +6,7 @@ on:
 
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  GH_REPOSITORY: saktibimantara/portofolio
 
 jobs:
   build:
