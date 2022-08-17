@@ -9,7 +9,7 @@ const IconLoader = props => (
         style={{
           stroke: 'currentColor',
           strokeWidth: '0.25mm',
-          fill: '#000',
+          fill: 'currentColor',
         }}
         transform="translate(22.000000, 31.000000)"
       >
