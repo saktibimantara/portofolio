@@ -5,6 +5,7 @@ const IconLogo = props => (
     <title>{'Logo'}</title>
     <g transform="translate(3.000000, 3.000000)">
       <g
+        id="S"
         fill="#000"
         style={{
           stroke: 'currentColor',
