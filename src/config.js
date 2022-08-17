@@ -1,26 +1,35 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  siteTitle: 'Ragil Bimantara | iOS Developer',
+  siteDescription:
+    'Ragil Bimantara is a Software Developer at Itsavirus, who loves learning new things',
+  siteKeywords:
+    'Ragil Bimantara, Ragil, Bimantara, saktibimantara, software developer, software engineer, iOS, iOS Developr, java developer',
+  siteUrl: 'https://saktibimantara.github.io/',
+  siteLanguage: 'en_US',
+  googleAnalyticsID: '',
+  googleVerification: '',
+  name: 'Ragil Bimantara Sakti',
+  location: 'Bali, Indonesia',
+  email: 'ragilbmtr@gmail.com',
+  github: 'https://github.com/saktibimantara',
+  twitterHandle: '',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/saktibimantara',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/saktibimantara',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/sbmntrx',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/ragilbimantara',
     },
   ],
 
@@ -45,7 +54,7 @@ module.exports = {
 
   colors: {
     green: '#64ffda',
-    navy: '#0a192f',
+    pink: '#f57dff',
     darkNavy: '#020c1b',
   },
 
