@@ -23,6 +23,5 @@ jobs:
           git remote set-url origin https://git:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           yarn
           npm install -g gh-pages --saved-dev
-          npm run deploy
       - name: Deploy
         run: npm run deploy:ci
