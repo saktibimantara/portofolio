@@ -1,4 +1,4 @@
-name: Gatsby Deploy
+name: Portofolio Deploy
 
 on:
   push:
@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Install dependencies
         run: |
-          npm install
+          yarn
+          npm run deploy
       - name: Deploy
         run: npm run deploy:ci
