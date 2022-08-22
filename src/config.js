@@ -6,7 +6,7 @@ module.exports = {
     'Ragil Bimantara, Ragil, Bimantara, saktibimantara, software developer, software engineer, iOS, iOS Developr, java developer',
   siteUrl: 'https://saktibimantara.github.io/',
   siteLanguage: 'en_US',
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'UA-166628407-2',
   googleVerification: '',
   name: 'Ragil Bimantara Sakti',
   location: 'Bali, Indonesia',
