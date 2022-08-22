@@ -1,10 +1,10 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: "/portofolio",
+  pathPrefix: '/portofolio',
   siteMetadata: {
     title: config.siteTitle,
-    description:config.siteDescription,
+    description: config.siteDescription,
     siteUrl: config.siteUrl, // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@sbmntrx',
@@ -151,7 +151,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'UA-166628407-2',
       },
     },
   ],
