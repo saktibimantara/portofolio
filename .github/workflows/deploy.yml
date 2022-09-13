@@ -30,7 +30,7 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
-build:
+  build:
     if: ${{ always() }}
     needs: [automation-test]
     runs-on: ubuntu-latest
