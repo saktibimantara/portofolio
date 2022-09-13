@@ -21,7 +21,9 @@ jobs:
         with:
           node-version: '14.x'
       - name: Install dependencies
-          run: yarn
+          run: | 
+            git remote set-url origin https://git:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+            yarn
       - name: Install Playwright Browsers
           run: npx playwright install --with-deps
       - name: Run Playwright tests
@@ -32,7 +34,6 @@ jobs:
             name: playwright-report
             path: playwright-report/
             retention-days: 30
-
   build:
     if: ${{ always() }}
       needs: [automation-test]
