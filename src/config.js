@@ -24,10 +24,6 @@ module.exports = {
       url: 'https://www.instagram.com/saktibimantara',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/sbmntrx',
-    },
-    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/ragilbimantara',
     },
