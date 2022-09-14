@@ -7,7 +7,7 @@ module.exports = {
     description: config.siteDescription,
     siteUrl: config.siteUrl, // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@sbmntrx',
+    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
